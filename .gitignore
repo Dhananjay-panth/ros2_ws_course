@@ -1,0 +1,32 @@
+# -------------------------
+# ROS2 Workspace
+# -------------------------
+build/
+install/
+log/
+
+# Colcon (ROS2 build tool) temporary files
+.colcon/
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+*.db
+*.db-shm
+*.db-wal
+
+# -------------------------
+# Python (common in ROS2)
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Other system junk
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
